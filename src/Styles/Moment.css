@@ -1,0 +1,32 @@
+.Moment h4,
+.Moment h5 {
+  text-align: center;
+}
+
+.Moment-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .Moment-wrapper {
+    flex-flow: row wrap;
+  }
+  .moment-description {
+    text-align: center;
+  }
+}
+
+.Moment img {
+  margin: 0 1em 1em 0;
+  height: 160px;
+  border-radius: 0.5em;
+  padding: 0.3em;
+  border: 2px solid #1a1a1a;
+  background-color: #FFFEBF;
+}
+
+.moment-description {
+  font-size: 14px;
+  margin-top: 0;
+}

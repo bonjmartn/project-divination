@@ -1,0 +1,37 @@
+.GetLotteryBalls {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 55% 45%;
+}
+
+@media (max-width: 800px) {
+  .GetLotteryBalls {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+.GetLotteryBalls .main-content {
+  text-align: center;
+}
+
+.GetLotteryBalls form {
+  margin-bottom: 2em;
+}
+
+.GetLotteryBalls button {
+  margin: 2em auto;
+}
+
+.GetLotteryBalls form div {
+  margin: 1em;
+}
+
+.GetLotteryBalls input[type=number] {
+  width: 4em;
+  margin-left: 0.5em;
+}
+
+.generated-balls {
+  text-align: center;
+}

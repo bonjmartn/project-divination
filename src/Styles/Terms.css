@@ -1,0 +1,18 @@
+.Terms p,
+.Terms ul,
+.Terms li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.Terms ul {
+  margin-left: 2em;
+}
+
+.Terms li {
+  margin-bottom: 0.5em;
+}
+
+.Terms p {
+  margin: 1em 0;
+}

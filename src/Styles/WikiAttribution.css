@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+  .WikiAttribution {
+    text-align: center;
+  }
+}
+
+.WikiAttribution p {
+  font-size: 0.8em;
+}

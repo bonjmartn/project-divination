@@ -1,0 +1,13 @@
+.front {
+  background-image: url('https://www.projectdivination.xyz/images/coin_tails.svg');
+}
+
+.back {
+  background-image: url('https://www.projectdivination.xyz/images/coin_heads.svg');
+}
+
+.Coin h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}

@@ -1,0 +1,18 @@
+.GetYesorNo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 55% 45%;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .GetYesorNo {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .GetYesorNo {
+    display: block;
+  }
+}

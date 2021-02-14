@@ -1,0 +1,16 @@
+.GetThreeRunes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1f 1f 1f;
+}
+
+.GetThreeRunes .rune-description {
+  width: 260px;
+}
+
+@media (max-width: 800px) {
+  .GetThreeRunes {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+}

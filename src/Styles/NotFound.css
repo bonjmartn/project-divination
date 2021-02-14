@@ -1,0 +1,8 @@
+.NotFound section {
+  min-height: 40vh;
+}
+
+.NotFound p {
+  text-align: center;
+  padding-bottom: 1em;
+}

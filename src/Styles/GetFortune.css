@@ -1,0 +1,33 @@
+.GetFortune {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 30% 28% 42%;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .GetFortune {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .GetFortune {
+    display: block;
+  }
+}
+
+.GetFortune svg {
+  display: block;
+  margin: 0 auto 2em;;
+}
+
+.getting-fortune {
+  animation: thinking 2s;
+}
+
+@keyframes thinking {
+  0%   {fill: #D5C9FF;}
+  50%  {fill: #F13FFF;}
+  100% {fill: #D5C9FF;}
+}

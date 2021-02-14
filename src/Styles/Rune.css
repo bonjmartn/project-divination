@@ -1,0 +1,22 @@
+.Rune {
+  text-align: center;
+}
+
+.Rune img {
+  max-width: 130px;
+  display: block;
+  margin: 0 auto 2em auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.rune-description {
+  width: 350px;
+  margin: 0 auto 2em auto;
+}
+
+.rune-description p {
+  margin-bottom: 1em;
+}

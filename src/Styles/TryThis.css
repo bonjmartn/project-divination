@@ -1,0 +1,14 @@
+.TryThis {
+  display: flex;
+  align-items: center;
+}
+
+.TryThis img {
+  margin-right: 0.5em;
+}
+
+.TryThis span a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}

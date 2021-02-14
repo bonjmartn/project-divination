@@ -1,0 +1,79 @@
+.About p,
+.About ul,
+.About li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.About ul {
+  margin-left: 2em;
+}
+
+.About li {
+  margin-bottom: 0.5em;
+}
+
+.About p {
+  margin: 1em 0;
+}
+
+#about-logo {
+  display: block;
+  margin: 2em auto;
+  max-width: 400px;
+}
+
+/* related links */
+
+.about-related-link {
+  display: flex;
+  align-items: center;
+}
+
+.about-related-link i {
+  margin-right: 0.5em;
+  font-size: 30px;
+}
+
+.about-related-link span {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* CSS Grid */
+
+.About {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+}
+
+.about-main-content {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.about-side-content {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.about-side-content p {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 800px) {
+  .About {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  
+  .about-main-content {
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
+  
+  .about-side-content {
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+}

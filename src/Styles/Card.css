@@ -1,0 +1,17 @@
+.Card {
+  text-align: center;
+}
+
+.Card img {
+  border-radius: 1em;
+  padding: 0.5em;
+  border: 2px solid #1a1a1a;
+  background-color: #D5C9FF;
+  display: block;
+  margin: 0 auto 2em auto;
+}
+
+.card-description {
+  max-width: 350px;
+  margin: 0 auto 2em auto;
+}

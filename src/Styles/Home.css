@@ -1,0 +1,71 @@
+/* general stuff */
+
+.Home section {
+  min-height: 10vh;
+  padding: 1em 2em 2.5em 2em;
+}
+
+.Home h2 {
+  text-align: center;
+}
+
+/* the large home hero image and link */
+
+.home-hero {
+  text-align: center;
+  font-weight: bold;
+  margin: 4em 2em;
+}
+
+@media (max-width: 800px) {
+  .home-hero {
+    margin: 2em;
+  }
+}
+
+.home-hero img {
+  display: block;
+  margin: 2em auto;
+  max-width: 1100px;
+}
+
+.home-hero a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.home-hero a:hover {
+  color: #F13FFF;
+}
+
+/* the sections for the main areas of the site */
+
+.Home-Sections-Wrapper section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 200px;
+}
+
+.Home-Sections-Wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.Home-Sections-Wrapper section {
+  font-weight: bold;
+  text-align: center;
+  flex-basis: 248px;
+}
+
+.Home-Sections-Wrapper section:hover {
+  transform: scale(1.03);
+  transition: all 0.2s ease;
+  box-shadow: 4px 6px 4px rgba(58, 3, 112, 0.8);
+}
+
+.Home-Sections-Wrapper a {
+  font-size: 16px;
+}

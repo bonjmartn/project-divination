@@ -1,0 +1,112 @@
+#coin-flip-cont {
+	width: 280px;
+  height: 280px;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#coin {
+  position: relative;
+  width: 280px;
+  transform-style: preserve-3d;
+
+}
+
+#coin .front, #coin .back {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+}
+
+#coin .front {
+  transform: translateZ(1px);
+  border-radius: 50%;
+}
+
+#coin .back {
+  transform: translateZ(-1px) rotateY(180deg);
+  border-radius: 50%;
+}
+
+#coin.animation900 {
+  -webkit-animation: rotate900 3s linear forwards; 
+  animation: rotate900 3s linear forwards;
+}
+
+#coin.animation1080 {
+  -webkit-animation: rotate1080 3s linear forwards; 
+  animation: rotate1080 3.5s linear forwards;
+}
+
+@-webkit-keyframes rotate900 {
+  from { 
+    -webkit-transform: rotateY(0); 
+    -moz-transform: rotateY(0); 
+    transform: rotateY(0); 
+  }
+  to { 
+    -webkit-transform: rotateY(900deg); 
+    -moz-transform: rotateY(900deg); 
+    transform: rotateY(900deg); 
+  }
+}
+
+@keyframes rotate900 {
+  from { 
+    -webkit-transform: rotateY(0); 
+    -moz-transform: rotateY(0); 
+    transform: rotateY(0); 
+  }
+  to { 
+    -webkit-transform: rotateY(900deg); 
+    -moz-transform: rotateY(900deg); 
+    transform: rotateY(900deg); 
+  }
+}
+
+@-webkit-keyframes rotate1080 {
+  from { 
+    -webkit-transform: rotateY(0); 
+    -moz-transform: rotateY(0); 
+    transform: rotateY(0); 
+  }
+  to { 
+    -webkit-transform: rotateY(1080deg); 
+    -moz-transform: rotateY(1080deg); 
+    transform: rotateY(1080deg); 
+  }
+}
+
+@keyframes rotate1080 {
+  from { 
+    -webkit-transform: rotateY(0); 
+    -moz-transform: rotateY(0); 
+    transform: rotateY(0); 
+  }
+  to { 
+    -webkit-transform: rotateY(1080deg); 
+    -moz-transform: rotateY(1080deg); 
+    transform: rotateY(1080deg); 
+  }
+}
+
+.GetCoinSide {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 55% 45%;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .GetCoinSide {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .GetCoinSide {
+    display: block;
+  }
+}
