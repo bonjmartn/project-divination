@@ -27,10 +27,10 @@ function About() {
         <section className="about-side-content">
           <h4>Related Links</h4>
           <div className="about-related-link">
-            <a href="https://github.com/bonjmartn"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/bonjmartn/project-divination"><i className="fab fa-github"></i></a>
             <span>GitHub</span>            
           </div>
-          <p>The code for this project is available on <a href="https://github.com/bonjmartn">GitHub</a>.</p>
+          <p>The code for this project is available on <a href="https://github.com/bonjmartn/project-divination">GitHub</a>.</p>
           <div className="about-related-link">
             <a href="https://www.behance.net/bonjmartn"><i className="fab fa-behance"></i></a>
             <span>Behance</span>            
