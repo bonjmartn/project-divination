@@ -32,10 +32,10 @@ function About() {
           </div>
           <p>The code for this project is available on <a href="https://github.com/bonjmartn/project-divination">GitHub</a>.</p>
           <div className="about-related-link">
-            <a href="https://www.behance.net/bonjmartn"><i className="fab fa-behance"></i></a>
+            <a href="https://www.behance.net/gallery/113513205/Project-Divination"><i className="fab fa-behance"></i></a>
             <span>Behance</span>            
           </div>
-          <p>More about the design of this project is available on <a href="https://www.behance.net/bonjmartn">Behance</a>.</p>
+          <p>More about the design of this project is available on <a href="https://www.behance.net/gallery/113513205/Project-Divination">Behance</a>.</p>
           <div className="about-related-link">
             <a href="https://projectdivination.xyz/images/Psychic-Divination-Branding-Sheet.pdf"><i className="fas fa-palette"></i></a>
             <span>Style Guide</span>            
